@@ -1,47 +1,125 @@
-.body {
+ul {
+    margin: 0px;
+    padding-inline-start: 0px;  
+    list-style-type: none;
+  }
+
+body {
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
 }
 
-ul {
-  margin: 0px;
-  padding-inline-start: 0px;  
-  list-style-type: none;
+button {
+    padding: 5px 20px;
+    border-radius: 6px;
+    border-color: white;
+    border-style:solid;
+    border-width: 2px;
+}
+
+button, .modal {
+    background-color: #3882f6;
+}
+
+.hero-button {
+    border-style: none;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.card-placeholder {
+    border-radius: 12px;
+    border: 5px solid #3882f6;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: oblique;
+}
+
+.header, .hero, .footer {
+    background-color: #1f2937;
+}
+
+.header-links, .hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
 }
 
 .header-links {
     display: flex;
-    gap: 15px;
+    align-items: center;
+    gap: 20px;
 }
 
-.content-top {
-    display: flex;
+.content {
+    flex: 1;
 }
 
-.content-middle {
+.hero, .information, .quote, .modal {
+    padding: 50px 200px;
+}
+
+.hero {
     display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.information {
+    display: flex;
+    text-align: center;
     flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
 }
 
 .cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    width: 150px;
 }
 
 .modal {
     display: flex;
+    margin: 100px 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    border-radius: 18px;
 }
 
 .footer {
     text-align: center;
+    color: #e5e7eb;
+    padding: 10px 200px;
 }
