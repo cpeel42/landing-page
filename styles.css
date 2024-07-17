@@ -1,3 +1,8 @@
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+
 ul {
   margin: 0px;
   padding-inline-start: 0px;  
@@ -12,4 +17,31 @@ ul {
 .header-links {
     display: flex;
     gap: 15px;
+}
+
+.content-top {
+    display: flex;
+}
+
+.content-middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
 }
