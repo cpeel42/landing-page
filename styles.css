@@ -21,6 +21,7 @@ button {
 
 button, .modal {
     background-color: #3882f6;
+    color: white;
 }
 
 .hero-button {
@@ -116,6 +117,7 @@ h2 {
     justify-content: center;
     gap: 100px;
     border-radius: 18px;
+    color: white;
 }
 
 .footer {
